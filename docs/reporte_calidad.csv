@@ -1,0 +1,8 @@
+﻿Chequeo,Hallazgo,Acción,Filas afectadas
+Valores nulos,0 nulos en 11 columnas,Ninguna (no requiere imputación),0
+Duplicados,1 marca de tiempo repetida (31-12-2018 20:00) con valores casi idénticos,Se conservó el registro en secuencia y se eliminó la copia del final,1
+Completitud de la serie,35040 de 35040 intervalos de 15 min,Ninguna (serie completa),0
+Falla de medición,"1 registro (2018-11-08 00:00) con todas las mediciones en cero, incluido FP = 0 %",Interpolación lineal con registros vecinos; marcado en Registro_Imputado,1
+Reglas de consistencia física y lógica,0 violaciones en 5 reglas,Ninguna (datos coherentes),0
+Outliers (IQR) en Usage_kWh,"328 registros > 123.3 kWh (0,9 %), 90 % en carga media o máxima",Se conservan (picos reales de producción) y se marcan en Pico_Consumo,328
+"Outliers en reactiva capacitiva, FP en adelanto y CO2","Distribuciones concentradas en 0 o 100 y CO2 redondeado a 0,01 t",Se conservan; el IQR no es adecuado para estas distribuciones,0

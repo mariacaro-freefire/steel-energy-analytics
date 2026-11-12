@@ -1,0 +1,27 @@
+﻿columna,columna_original,origen,tipo_dato,descripcion,unidad_o_valores,nulos
+fecha_hora,Date_Time,Original (transformada),datetime64[us],Marca de tiempo del intervalo de 15 min,dd-mm-aaaa hh:mm,0
+fecha,—,Derivada,datetime64[us],Día operativo (inicio del intervalo),aaaa-mm-dd,0
+hora,—,Derivada,int32,Hora de inicio del intervalo,0-23,0
+mes,—,Derivada,int32,Mes del intervalo,1-12,0
+turno,—,Derivada,category,"Turno de trabajo (supuesto: 06-14, 14-22, 22-06)",Mañana / Tarde / Noche,0
+dia_semana,Day_Of_Week,Original (transformada),category,Día de la semana,Monday … Sunday,0
+tipo_dia,WeekStatus,Original (transformada),category,Día laboral o fin de semana,Weekday / Weekend,0
+nsm,NSM,Original,int64,Segundos desde la medianoche,s,0
+consumo_kwh,Usage_kWh,Original,float64,Energía activa consumida,kWh,0
+demanda_kw,—,Derivada,float64,Demanda promedio del intervalo (kWh × 4),kW,0
+reactiva_inductiva_kvarh,Lagging_Current_Reactive.Power_kVarh,Original,float64,Energía reactiva inductiva,kVarh,0
+reactiva_capacitiva_kvarh,Leading_Current_Reactive_Power_kVarh,Original,float64,Energía reactiva capacitiva,kVarh,0
+fp_atraso_pct,Lagging_Current_Power_Factor,Original,float64,Factor de potencia en atraso,%,0
+fp_adelanto_pct,Leading_Current_Power_Factor,Original,float64,Factor de potencia en adelanto,%,0
+ratio_reactiva_activa,—,Derivada,float64,Reactiva inductiva / activa (Q/P),adimensional,0
+reactiva_penalizable_kvarh,—,Derivada,float64,Reactiva inductiva que supera el 50 % de la activa,kVarh,0
+penalizado,—,Derivada,int64,1 si el intervalo tiene reactiva penalizable,0 / 1,0
+co2_t,CO2(tCO2),Original,float64,Emisiones de CO2,tCO2,0
+co2_estimado_kg,—,Derivada,float64,"Consumo × factor de emisión anual (0,421 tCO2/MWh)",kg,0
+costo_energia_usd,—,Derivada,float64,"Consumo × tarifa supuesta (0,10 USD/kWh)",USD,0
+costo_penalizacion_usd,—,Derivada,float64,Reactiva penalizable × tarifa supuesta,USD,0
+costo_total_usd,—,Derivada,float64,Costo de energía + penalización,USD,0
+factor_carga_diario,—,Derivada,float64,Demanda promedio / demanda máxima del día,0-1,0
+pico_consumo,—,Derivada (calidad),int64,"1 si el consumo supera el límite IQR (123,3 kWh)",0 / 1,0
+registro_imputado,—,Derivada (calidad),int64,1 si las mediciones se interpolaron por falla,0 / 1,0
+tipo_carga,Load_Type,Original (transformada),category,Tipo de carga del intervalo,Light / Medium / Maximum,0

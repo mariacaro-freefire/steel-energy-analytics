@@ -1,0 +1,12 @@
+﻿columna,tipo_dato,descripcion,unidad_o_valores,nulos,ejemplo
+Date_Time,str,Marca de tiempo del intervalo de 15 min,dd-mm-aaaa hh:mm,0,01-01-2018 00:15
+Usage_kWh,float64,Energía activa consumida,kWh,0,3.17
+Lagging_Current_Reactive.Power_kVarh,float64,Energía reactiva inductiva,kVarh,0,2.95
+Leading_Current_Reactive_Power_kVarh,float64,Energía reactiva capacitiva,kVarh,0,0.0
+CO2(tCO2),float64,Emisiones de CO2,tCO2,0,0.0
+Lagging_Current_Power_Factor,float64,Factor de potencia en atraso,%,0,73.21
+Leading_Current_Power_Factor,float64,Factor de potencia en adelanto,%,0,100.0
+NSM,int64,Segundos desde la medianoche,s,0,900
+WeekStatus,str,Día laboral o fin de semana,Weekday / Weekend,0,Weekday
+Day_Of_Week,str,Día de la semana,Monday … Sunday,0,Monday
+Load_Type,str,Tipo de carga del intervalo,Light / Medium / Maximum,0,Light_Load
