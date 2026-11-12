@@ -123,6 +123,6 @@ Siguiendo la política de integridad académica del curso, declaramos que se us�
 
 ## Integrantes
 
-- [Nombre del integrante 1]
-- [Nombre del integrante 2]
-- [Nombre del integrante 3]
+- Maria Caro
+- Jonatan Rodriguez
+- Jaime Lozano
