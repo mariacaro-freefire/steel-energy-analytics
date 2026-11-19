@@ -199,6 +199,6 @@ Siguiendo la política de integridad académica del curso, declaramos que se us�
 
 ## Integrantes
 
-- Maria
-- Jaime
-- Jonatan
+- Maria Paula Caro Acosta 2320221009
+- Jaime Andres Lozano Urquiza 2320231057
+- Jonatan Steven Rodriguez Trujillo 23202201001
