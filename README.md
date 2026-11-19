@@ -195,7 +195,7 @@ Python · pandas · NumPy · matplotlib · seaborn · scikit-learn · joblib · 
 
 ## Uso de inteligencia artificial
 
-Siguiendo la política de integridad académica del curso, declaramos que se usó un asistente de IA (Claude, de Anthropic) como apoyo para estructurar el código, depurar errores y redactar documentación. Todas las decisiones fueron revisadas por el equipo, que puede explicar cada línea del código.
+Siguiendo la política de integridad académica del curso, declaramos que se usó un asistente de IA (Claude, de Anthropic) como apoyo para estructurar el código, depurar errores. Todas las decisiones fueron revisadas por el equipo, que puede explicar cada línea del código.
 
 ## Integrantes
 
