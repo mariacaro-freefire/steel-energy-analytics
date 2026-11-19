@@ -1,0 +1,7 @@
+﻿Hipótesis,Técnica,Enunciado,Evidencia,Resultado
+H1,Clustering,Los días forman al menos 3 perfiles y los feriados caen en el de menor consumo,"k = 4 (codo y silueta 0,449); los 12 feriados en 'Sin producción'",Aceptada
+H2,Clustering,El clúster sin producción tiene el mayor % de intervalos penalizados,"Tiene el menor (43,9 %); el mayor es 'FP deteriorado' (70 %, 39 % del costo)",Rechazada
+H3,Clasificación,"Un modelo con calendario supera la regla del reloj (> 93,3 %)","Random Forest A: 98,6 % (96,6 % validando por día completo)",Aceptada
+H4,Clasificación,Solo con variables eléctricas se supera el azar; el error es media vs. máxima,"kNN B: 74,5 % vs. 51,6 %; 28 % y 38 % de confusión entre media y máxima",Aceptada
+H5,PCA,Dos componentes explican al menos el 80 % de la varianza eléctrica,"PC1 + PC2 = 92,3 %; PC1 = producción, PC2 = compensación",Aceptada
+H6,LDA,El FP es la variable que más separa; con LDA la métrica cae menos de 5 puntos,"FP adelanto con mayor peso en LD1 (1,34); caída ≤ 1,1 puntos (solo eléctricas)",Aceptada (solo con variables eléctricas)
